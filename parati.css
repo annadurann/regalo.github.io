@@ -1,0 +1,48 @@
+body {
+    background-color: beige;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    color: #8B4513;
+    margin: 20px;
+}
+
+.cancion {
+    background-color: #D2B48C;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #8B4513;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+p {
+    color: #8B4513;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+a {
+    background-color: #D2B48C;
+    color: #8B4513;
+    border: 4px #231104;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+a:hover {
+    background-color: #b88b5c;
+}

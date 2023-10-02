@@ -1,0 +1,35 @@
+body {
+    background-color: beige;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    color: #8B4513;
+    margin: 20px;
+}
+
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los botones */
+}
+
+.boton {
+    background-color: #D2B48C;
+    color: #8B4513;
+    border: none;
+    padding: 40px 80px; /* Tamaño de los botones más grandes */
+    border-radius: 5px;
+    font-size: 28px; /* Tamaño de texto más grande */
+    cursor: pointer;
+    text-decoration: none;
+    margin: 20px; /* Espacio entre los botones */
+    width: 280px; /* Ancho fijo para organizar en dos filas */
+}
+
+.boton:hover {
+    background-color: #A0522D;
+}
